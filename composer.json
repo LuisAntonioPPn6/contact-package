@@ -1,0 +1,26 @@
+{
+    "name": "n6solutions/contact",
+    "description": "this will be test",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Luis Peña",
+            "email": "luis.pena@nuvemtecnologia.mx"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "n6solutions\\contact\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "n6solutions\\contact\\ContactServiceProvider"
+            ]
+        }
+    },
+}
